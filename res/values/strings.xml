@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌上南中医 </string>
+    <string name="action_settings">设置</string>
+    <string name="version">校庆版</string>
+    <string name="login_label_username">学号:</string>
+    <string name="login_label_password">密码:</string>
+    <string name="login_label_signin">登 录</string>
+    <string name="recd">记住密码</string>
+    <string name="login_register_link">默认帐号和密码是相同的！如果没登陆上，则需检查账号密码！</string>
+    <string name="grade_remark">目前等级评价机制为自定义。</string>
+    <string name="action_recommend">软件推荐</string>
+    <string name="search">检索</string>
+    <string name="search_hint">请输入检索关键词</string>
+    <string name="about_soft">此软件由耿介之制作，禁止反编译。免费供南中医师生使用，请勿用作商业用途，谢谢支持。(如果您有任何建议，请点击上面的反馈按钮。)</string>
+    <string name="about_me"> 关于作者：本人是计算机爱好者，希望对此感兴趣的可以联系我，大家共同交流，一起进步！</string>
+    <string name="app">查成绩啦 </string>
+    <string name="hello">提示：\n可能因为教务处系统自身的原因，会出现“数据库忙请稍后再试”提示，重复登录几次，超过十次这样那你就可以检查账号密码或想一下自己人品了。\n祝各位取得好成绩，暑假愉快O(∩_∩)O~\n——2014年7月6日</string>
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="login">登 录</string>
+    <string name="lib_key_hint">输入图书馆账号的密码</string>
+    <string name="welcome">好好学习</string>
+    
+    <string name="xiaoqing_today">恭祝\n南京中医药大学\n六十周年华诞</string>
+    <string name="xiaoqing_countdown">距六十周年庆典\n还有：</string>
+</resources>

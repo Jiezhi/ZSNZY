@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <!-- 菜单 -->
+
+    <include layout="@layout/main_menu" />
+
+    <com.jiezhi.lib.view.LeftSliderLayout
+        android:id="@+id/layout_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="15px"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_side_shadow" />
+
+        <include
+            android:id="@+id/id_left_slider_content"
+            layout="@layout/main_content" />
+    </com.jiezhi.lib.view.LeftSliderLayout>
+
+</FrameLayout>

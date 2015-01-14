@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_array">
+        <item></item>
+        <item>成绩查询</item>
+        <item>个人信息</item>
+        <item>当前借阅</item>
+        <!--
+        <item>应用推荐</item>
+        <item>校内通知</item>
+        <item>热门借阅</item>
+        <item>热门图书</item>
+        <item>分享（即将推出）</item>
+        -->
+        <item>更新软件</item>        <item>意见反馈</item>
+        <item>关于软件</item>
+        <item>退出程序</item>
+    </string-array>
+    
+    <string-array name="spinner_search_type">
+        <item>题		名</item>
+        <item>责任者</item>
+        <item>主题词</item>
+        <item>ISBN/ISSN</item>
+        <item>订购号</item>
+        <item>分类号</item>
+        <item>索书号</item>
+        <item>出版社</item>
+        <item>丛书名</item>
+        <item>题名拼音</item>
+        <item>责任者拼音</item>
+    </string-array>
+    
+    <string-array name="spinner_match_flag">
+        <item>前方一致</item>
+        <item>完全匹配</item>
+        <item>任意匹配</item>
+    </string-array>
+
+</resources>
