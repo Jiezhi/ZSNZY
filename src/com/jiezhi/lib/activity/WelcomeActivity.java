@@ -32,14 +32,15 @@ public class WelcomeActivity extends Activity implements Runnable {
 		 */
 		countdown();
 		MobclickAgent.updateOnlineConfig(getBaseContext());
-		UmengUpdateAgent.setUpdateOnlyWifi(false);
+		UmengUpdateAgent.setUpdateOnlyWifi(true);
 		UmengUpdateAgent.update(this);
 		new Thread(this).start();
 	}
 
 	private void countdown() {
 		TextView welcomeTV = (TextView) findViewById(R.id.welcome_tv);
-		welcomeTV.setText("Test");
+		welcomeTV.setText("掌上南中医");
+		/*
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(new Date());
 		long time_now = calendar.getTimeInMillis();
@@ -58,6 +59,7 @@ public class WelcomeActivity extends Activity implements Runnable {
 					R.string.xiaoqing_countdown)
 					+ String.valueOf(time_left) + "天");
 		}
+		*/
 	}
 
 	@Override
